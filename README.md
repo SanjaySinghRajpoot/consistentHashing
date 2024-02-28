@@ -37,6 +37,5 @@ fmt.Println("Server for key:", server)
 ```
 
 ## Future Improvements
-- Implement binary search for server lookup to improve time complexity.
 - Enhance error handling and edge case scenarios.
 

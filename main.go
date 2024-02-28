@@ -59,7 +59,6 @@ func (h *HashRing) GetServer(key string) string {
 
 	hash := int(crc32.ChecksumIEEE([]byte(key)))
 
-	// replace this with binary serach for reducing time complexity
 	for _, node := range h.nodes {
 		if node.hash > hash {
 			return node.server
